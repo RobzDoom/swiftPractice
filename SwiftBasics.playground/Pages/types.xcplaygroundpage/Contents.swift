@@ -52,3 +52,21 @@ let product = firstValue * secondValue
 
 var sentNum: String = "The product of \(firstValue) times \(secondValue) is \(product)"
 
+//Practice Optionals
+
+var items = ["James", "John", "Sally"]
+
+func position(of string: String, in array: [String]) -> Int { //This will return INT no matter what because of the ->
+    for i in 0 ..< array.count {
+        if array[i] == string {
+            return i
+        }
+    }
+    
+    return 0
+}
+
+let jamesPosition = position(of: "James", in: items)
+let johnPosition = position(of: "John", in: items)
+let sallyPosition = position(of: "Sally", in: items)
+let bobPosition = position(of: "Bob", in: items)
