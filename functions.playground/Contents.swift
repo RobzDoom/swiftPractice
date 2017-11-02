@@ -16,4 +16,10 @@ func say(phrase: String, times: Int){
     }
 }
 
-say(phrase: "Hello there", times:10)
+say(phrase: "Yeallow", times:2)
+
+//Closures
+
+let names = ["Al", "Ann", "Alex", "Alice", "Audrey" ]
+
+
