@@ -4,5 +4,6 @@
         <page name='types'/>
         <page name='firstPage'/>
         <page name='Integers'/>
+        <page name='ControlFlow'/>
     </pages>
 </playground>
