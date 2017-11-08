@@ -70,3 +70,6 @@ let jamesPosition = position(of: "James", in: items)
 let johnPosition = position(of: "John", in: items)
 let sallyPosition = position(of: "Sally", in: items)
 let bobPosition = position(of: "Bob", in: items)
+
+
+
